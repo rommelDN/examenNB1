@@ -1,0 +1,5 @@
+CREATE TABLE mascota (
+    id serial PRIMARY KEY,
+    nombre varchar(50) NOT NULL,
+    edad smallint NOT NULL
+)
